@@ -1,0 +1,92 @@
+
+body{
+    /* display:flex;
+    flex-direction:column;
+    height:100vh; */
+}
+
+.container {
+  background-image: url("https://guhantara.com/wp-content/uploads/2020/02/accommodation-1200x495.jpg");
+  background-size: cover;
+  /* background-image: linear-gradient(to right,rgb(39, 70, 133),rgb(63, 180, 198)),url(https://guhantara.com/wp-content/uploads/2020/02/accommodation-1200x495.jpg); */
+}
+
+.btn {
+  background-color: #e8ba01;
+}
+
+.gnavbar {
+  padding: 10px 0px;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  background-color: transparent;
+}
+.gnavbar i {
+  color: white;
+}
+
+.guhantara {
+  height: 60vh;
+  background-image: url("https://www.dellaresorts.com/images/luxury-slider-1.jpg");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.footer{
+    width:100%;
+margin-top:auto;    
+
+}
+
+.footertop {
+  height: 10vh;
+  background-size: cover;
+  width: 100%;
+  margin-top:50px;
+  background-image: url("https://guhantara.com/wp-content/themes/guhantara/images/footer.png");
+}
+
+.footerbottom{
+    margin-top: 5px;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #38302c;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.cancellation{
+    padding-left:50px;
+}
+
+.tips{
+    padding-left:50px;
+}
+
+.payment{
+    padding-left:50px;
+}
+
+.copyright{
+    background-color:rgb(120, 38, 38);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .footerbottom{
+        display:flex;
+        flex-direction:column;
+
+    }
+
+
+}
